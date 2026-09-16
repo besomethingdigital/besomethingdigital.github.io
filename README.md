@@ -2,7 +2,7 @@
 
 Public one-page marketing site for **Be Something Digital**.
 
-**Live URL:** [https://erikshun.github.io/be-something-digital/](https://erikshun.github.io/be-something-digital/)
+**Live URL:** [https://besomethingdigital.github.io/](https://besomethingdigital.github.io/)
 
 ## What’s on the page
 
