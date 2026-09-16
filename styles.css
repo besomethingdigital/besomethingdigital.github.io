@@ -747,3 +747,17 @@ a.portfolio-link:hover img {
     transition: none;
   }
 }
+
+.military-callout {
+  margin: 1.25rem 0 0;
+  padding: 1rem 1.15rem;
+  border-radius: 12px;
+  background: rgba(15, 76, 92, 0.08);
+  border: 1px solid rgba(15, 76, 92, 0.18);
+  color: var(--text, #1a2b32);
+  line-height: 1.5;
+}
+.military-callout strong {
+  display: inline;
+  color: var(--ink, #0f2f38);
+}
