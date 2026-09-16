@@ -17,24 +17,25 @@
       <p class="demo-banner-text">Demo example — not a real business. <a class="demo-home-link" href="/">Click here to return to the main page</a></p>
     </div>
   </div>
-  <!-- Sticky Header -->
+
   <header class="site-header" id="header">
     <div class="container header-inner">
       <a href="#top" class="logo" aria-label="Cinderwell Heating &amp; Cooling home">
-        <span class="logo-mark" aria-hidden="true">❄</span>
-        <span class="logo-text">Cinderwell<span class="logo-sub">Heating &amp; Cooling</span></span>
+        <img class="logo-mark" src="assets/logo.svg" width="36" height="36" alt="" aria-hidden="true">
+        <span class="logo-text">
+          <span class="logo-name">Cinderwell</span>
+          <span class="logo-sub">Heating &amp; Cooling</span>
+        </span>
       </a>
       <nav class="nav-desktop" aria-label="Primary">
+        <a href="#top">Home</a>
+        <a href="#services">Heating</a>
+        <a href="#services">Cooling</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#areas">Service Area</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact" class="nav-cta">Get a Quote</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <a href="tel:+15550142288" class="header-call btn btn-call">
-        <svg class="icon-phone" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        <span class="call-label">(555) 014-2288</span>
-      </a>
+      <a href="#contact" class="btn btn-header">Schedule Service</a>
       <button type="button" class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
         <span></span><span></span><span></span>
       </button>
@@ -44,90 +45,64 @@
       <a href="#about">About</a>
       <a href="#areas">Service Area</a>
       <a href="#faq">FAQ</a>
-      <a href="#contact">Get a Quote</a>
-      <a href="tel:+15550142288" class="btn btn-call btn-block">Call (555) 014-2288</a>
+      <a href="#contact">Schedule Service</a>
+      <a href="tel:+15550142288" class="btn btn-primary btn-block">Call (555) 014-2288</a>
     </nav>
   </header>
 
   <main id="top">
-    <!-- Hero -->
     <section class="hero">
-      <div class="container hero-grid">
+      <div class="hero-split">
         <div class="hero-copy">
-          <p class="eyebrow">Tucson · Same-Day Service Available</p>
-          <h1>Beat the heat. Expert HVAC when you need it most.</h1>
-          <p class="hero-lead">Fast, licensed AC repair, heating, and maintenance for Tucson homes and businesses. Honest pricing. Clear communication. Results you can feel.</p>
+          <h1>Reliable Heating &amp; Cooling <span class="accent">for Tucson Homes</span></h1>
+          <p class="hero-lead">Comfort you can count on. All year round.</p>
           <div class="hero-actions">
-            <a href="tel:+15550142288" class="btn btn-primary btn-lg">
-              <svg class="icon-phone" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              Call Now — (555) 014-2288
-            </a>
-            <a href="#contact" class="btn btn-secondary btn-lg">Request Service</a>
-          </div>
-          <ul class="hero-bullets" aria-label="Highlights">
-            <li>Licensed &amp; insured</li>
-            <li>Same-day appointments</li>
-            <li>4.9★ local reviews</li>
-          </ul>
-        </div>
-        <aside class="hero-card" aria-label="Quick request">
-          <h2 class="hero-card-title">Need service today?</h2>
-          <p class="hero-card-text">Tell us what’s going on — we’ll confirm your appointment by phone.</p>
-          <a href="#contact" class="btn btn-primary btn-block">Start Your Request</a>
-          <p class="hero-card-note">Or call <a href="tel:+15550142288">(555) 014-2288</a></p>
-        </aside>
-      </div>
-    </section>
-
-    <!-- Trust Strip -->
-    <section class="trust-strip" aria-label="Why choose us">
-      <div class="container trust-grid">
-        <div class="trust-item">
-          <span class="trust-icon" aria-hidden="true">✓</span>
-          <div>
-            <strong>Licensed &amp; Insured</strong>
-            <span>Arizona ROC contractors</span>
+            <a href="#contact" class="btn btn-hero">Schedule Service <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
-        <div class="trust-item">
-          <span class="trust-icon" aria-hidden="true">⚡</span>
-          <div>
-            <strong>Same-Day Service</strong>
-            <span>When slots are open</span>
-          </div>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon" aria-hidden="true">★</span>
-          <div>
-            <strong>4.9★ Reviews</strong>
-            <span>200+ Tucson homeowners</span>
-          </div>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon" aria-hidden="true">$</span>
-          <div>
-            <strong>Upfront Pricing</strong>
-            <span>No surprise invoices</span>
-          </div>
+        <div class="hero-media">
+          <img src="assets/hero.jpg" alt="Outdoor air conditioning unit against a Southwestern desert backdrop" width="1200" height="960" fetchpriority="high">
         </div>
       </div>
     </section>
 
-    <!-- Services -->
+    <section class="features-bar" aria-label="Why choose us">
+      <div class="container features-grid">
+        <div class="feature-item">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          </span>
+          <span class="feature-label">Trusted Local Technicians</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </span>
+          <span class="feature-label">Fast &amp; Reliable Service</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c-2 4-6 6-6 10a6 6 0 0012 0c0-4-4-6-6-10z"/><path d="M9 14c.5 2 1.5 3 3 3s2.5-1 3-3"/></svg>
+          </span>
+          <span class="feature-label">Smart, Energy-Efficient Solutions</span>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="services">
       <div class="container">
         <header class="section-head">
-          <p class="eyebrow">What We Do</p>
-          <h2>HVAC services built for Tucson heat</h2>
-          <p class="section-lead">From emergency AC repair to seasonal tune-ups — we keep your home comfortable year-round.</p>
+          <p class="eyebrow">Comfort Starts Here</p>
+          <h2>Heating, Cooling &amp; More for a Better Home</h2>
+          <p class="section-lead">From emergency AC repair to seasonal tune-ups — we keep Tucson homes comfortable year-round.</p>
         </header>
         <div class="cards">
           <article class="card">
             <div class="card-icon" aria-hidden="true">❄</div>
             <h3>AC Repair</h3>
-            <p>Diagnose and fix cooling issues fast — weak airflow, strange noises, refrigerant leaks, and total system failures.</p>
+            <p>Diagnose and fix cooling issues fast — weak airflow, strange noises, refrigerant leaks, and system failures.</p>
             <ul class="card-list">
-              <li>Emergency &amp; same-day options</li>
+              <li>Same-day options when available</li>
               <li>All major brands</li>
               <li>Clear diagnosis before work</li>
             </ul>
@@ -138,14 +113,14 @@
             <p>Furnace and heat pump repair, safety checks, and reliable heat when desert nights get cold.</p>
             <ul class="card-list">
               <li>Furnace &amp; heat pump service</li>
-              <li>Safety &amp; carbon monoxide checks</li>
-              <li>Efficient replacements available</li>
+              <li>Safety checks</li>
+              <li>Efficient replacements</li>
             </ul>
           </article>
           <article class="card">
             <div class="card-icon" aria-hidden="true">🔧</div>
             <h3>Maintenance</h3>
-            <p>Seasonal tune-ups that extend equipment life, cut energy bills, and catch problems before they strand you.</p>
+            <p>Seasonal tune-ups that extend equipment life, cut energy bills, and catch problems early.</p>
             <ul class="card-list">
               <li>Spring &amp; fall tune-ups</li>
               <li>Filter &amp; coil care</li>
@@ -156,38 +131,36 @@
       </div>
     </section>
 
-    <!-- About -->
     <section class="section section-alt" id="about">
       <div class="container about-grid">
         <div class="about-copy">
           <p class="eyebrow">About Cinderwell</p>
           <h2>Local techs who treat your home like their own</h2>
-          <p>Cinderwell Heating &amp; Cooling is a Tucson-based team serving homeowners and small businesses across the metro. We show up on time, explain options in plain English, and never pressure you into work you don’t need.</p>
+          <p>Cinderwell Heating &amp; Cooling is a Tucson-based demo brand serving homeowners across the metro. We show up on time, explain options in plain English, and never pressure you into work you don’t need.</p>
           <p>Whether your AC quit on a 110° afternoon or you’re planning a preventive tune-up, you’ll get respectful service and transparent pricing.</p>
           <ul class="about-points">
-            <li>Family-owned, Tucson-focused</li>
-            <li>Background-checked technicians</li>
-            <li>Satisfaction-first approach</li>
+            <li>Family-owned style, Tucson-focused</li>
+            <li>Licensed &amp; insured technicians</li>
+            <li>Upfront pricing before work begins</li>
           </ul>
         </div>
         <div class="about-stats" aria-label="Company highlights">
           <div class="stat">
             <span class="stat-num">15+</span>
-            <span class="stat-label">Years in Tucson</span>
+            <span class="stat-label">Years serving Tucson</span>
           </div>
           <div class="stat">
             <span class="stat-num">2,400+</span>
             <span class="stat-label">Jobs completed</span>
           </div>
           <div class="stat">
-            <span class="stat-num">4.9★</span>
-            <span class="stat-label">Average rating</span>
+            <span class="stat-num">Same-day</span>
+            <span class="stat-label">When openings allow</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Service Area -->
     <section class="section" id="areas">
       <div class="container">
         <header class="section-head">
@@ -207,11 +180,10 @@
           <li>Casas Adobes</li>
           <li>South Tucson</li>
         </ul>
-        <p class="area-note">Not sure if we cover your zip? <a href="tel:+15550142288">Call (555) 014-2288</a> — we’ll let you know in under a minute.</p>
+        <p class="area-note">Not sure if we cover your zip? <a href="tel:+15550142288">Call (555) 014-2288</a> — we’ll let you know quickly.</p>
       </div>
     </section>
 
-    <!-- Lead Form -->
     <section class="section section-cta" id="contact">
       <div class="container contact-grid">
         <div class="contact-copy">
@@ -224,7 +196,6 @@
             <li>Same-day when openings allow</li>
           </ul>
         </div>
-
         <div class="form-wrap">
           <form id="leadForm" class="lead-form" novalidate>
             <div class="form-field">
@@ -262,7 +233,6 @@
             <button type="submit" class="btn btn-primary btn-lg btn-block">Submit Request</button>
             <p class="form-fineprint">By submitting, you agree we may contact you about this request. Demo only — no data is sent.</p>
           </form>
-
           <div id="formSuccess" class="form-success" hidden>
             <div class="success-icon" aria-hidden="true">✓</div>
             <h3>Request received</h3>
@@ -273,7 +243,6 @@
       </div>
     </section>
 
-    <!-- FAQ -->
     <section class="section" id="faq">
       <div class="container narrow">
         <header class="section-head">
@@ -287,7 +256,7 @@
           </details>
           <details class="faq-item">
             <summary>Are you licensed and insured in Arizona?</summary>
-            <p>Yes. Cinderwell Heating &amp; Cooling operates as a licensed, bonded, and insured contractor serving the Tucson metro area.</p>
+            <p>This is a fictional demo. A real HVAC company would list its Arizona ROC license and insurance details here.</p>
           </details>
           <details class="faq-item">
             <summary>How do you price repairs?</summary>
@@ -295,26 +264,28 @@
           </details>
           <details class="faq-item">
             <summary>What brands do you service?</summary>
-            <p>We work on all major residential brands — Carrier, Trane, Lennox, Goodman, Rheem, and more — plus many heat pumps and package units common in Tucson homes.</p>
+            <p>All major residential brands common in Tucson homes — plus heat pumps and package units.</p>
           </details>
           <details class="faq-item">
             <summary>Do you offer maintenance plans?</summary>
-            <p>Yes. Seasonal tune-up plans help prevent breakdowns, keep warranties happier, and often include priority scheduling.</p>
+            <p>Yes. Seasonal tune-up plans help prevent breakdowns and often include priority scheduling.</p>
           </details>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
         <a href="#top" class="logo logo-footer">
-          <span class="logo-mark" aria-hidden="true">❄</span>
-          <span class="logo-text">Cinderwell<span class="logo-sub">Heating &amp; Cooling</span></span>
+          <img class="logo-mark" src="assets/logo.svg" width="32" height="32" alt="" aria-hidden="true">
+          <span class="logo-text">
+            <span class="logo-name">Cinderwell</span>
+            <span class="logo-sub">Heating &amp; Cooling</span>
+          </span>
         </a>
-        <p>Reliable cooling &amp; heating for Tucson homes and businesses.</p>
+        <p>Reliable cooling &amp; heating for Tucson homes. Fictional demo by Be Something Digital.</p>
       </div>
       <div class="footer-nap">
         <h3 class="footer-heading">Contact</h3>
