@@ -1,13 +1,13 @@
-/* Summit Air HVAC — Be Something Digital demo
-   Professional blue/slate, mobile-first */
+/* Briarpipe Plumbing — Be Something Digital demo
+   Teal/slate plumbing theme, mobile-first */
 
 :root {
-  --blue-900: #0b1f3a;
-  --blue-800: #123056;
-  --blue-700: #1a4478;
-  --blue-600: #2563a8;
-  --blue-500: #2f7fd4;
-  --blue-100: #e8f1fb;
+  --blue-900: #062e2b;
+  --blue-800: #0a4640;
+  --blue-700: #0d5c54;
+  --blue-600: #0f766e;
+  --blue-500: #14b8a6;
+  --blue-100: #e6f7f5;
   --slate-900: #0f172a;
   --slate-700: #334155;
   --slate-600: #475569;
@@ -21,8 +21,8 @@
   --success-bg: #ecfdf5;
   --error: #dc2626;
   --error-bg: #fef2f2;
-  --cta: #ea580c;
-  --cta-hover: #c2410c;
+  --cta: #d97706;
+  --cta-hover: #b45309;
   --radius: 12px;
   --radius-sm: 8px;
   --shadow: 0 4px 24px rgba(15, 23, 42, 0.08);
@@ -111,7 +111,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin: 0 0 0.5rem;
 }
 
-.eyebrow-light { color: #93c5fd; }
+.eyebrow-light { color: #5eead4; }
 
 /* Buttons */
 .btn {

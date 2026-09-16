@@ -1,5 +1,5 @@
 /**
- * Summit Air HVAC — demo site JS
+ * Cinderwell Heating & Cooling — demo site JS
  * Mobile nav + client-side lead form (no backend)
  */
 (function () {

@@ -1,5 +1,5 @@
 /**
- * River Plumb — demo site JS
+ * Briarpipe Plumbing — demo site JS
  * Mobile nav + client-side lead form (no backend)
  */
 (function () {
