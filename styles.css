@@ -515,10 +515,10 @@ a.portfolio-link:focus-visible {
 
 .portfolio-item img {
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  background: var(--bg-elevated);
-  transition: opacity 0.15s;
+  object-position: center;
+  background: #0f1419;
 }
 
 a.portfolio-link:hover img {
